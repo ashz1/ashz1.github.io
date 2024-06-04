@@ -1,18 +1,40 @@
-# Site Build Settings
+url: https://ashz1.github.io
+baseurl: /agency-jekyll-theme/
 
-# jekyll-paginate configuration
-paginate:            5
+# Site settings
+title: Aashay Zende
+email: zende.a@northeastern.edu
+description: "Portfolio Resume Website of Aashay Zende showcasing his projects and journey!"
+
+
+# Team names, titles and social links
+people:
+- name: Aashay Zende
+  pic: 1
+  position: Lead Designer
+  social:
+    - title: LinkedIn
+      url: https://www.linkedin.com/in/aashay-zende-3018209b/
+    - title: Github Files
+      url: https://github.com/ashz1/ashz1.github.io
+    - title: Email
+      url: zende.a@northeastern.edu
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: http://twitter.com/jekyllrb
+  - title: facebook
+    url:
+  - title: stack-overflow
+    url: http://stackoverflow.com/questions/tagged/jekyll
+  - title: bitbucket 
+    url: http://bitbucket.org/jekyll
+  - title: github
+    url: http://github.com/jekyll
+
+
 
 # Build settings
-markdown:            kramdown
-highlighter:         rouge
-permalink:           /:title
-plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
-
-# Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
-title:		           "Aashay Zende"
-description:	       "Data Analyst | Business Analyst | Datacamp SQL Associate Certified | PowerBI and Tableau Specialist | Portfolio Management | Strategy Consulting"
-author:              "Aashay"
-# RSS 2.0 can be used instead of Atom by uncommenting following two lines
-#feed:
-#  path: rss-feed.xml
+markdown: kramdown
+permalink: pretty
