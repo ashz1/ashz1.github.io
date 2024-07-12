@@ -1,12 +1,18 @@
-# Site settings
-title: Aashay Zende
-email: zende.a@northeastern.edu
-description: > # this means to ignore newlines until "baseurl:"
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "" # the base hostname & protocol for your site
+# Site Build Settings
 
-linkedin_username: aashay-zende-3018209b/
-github_username: ashz1
+# jekyll-paginate configuration
+paginate:            5
 
 # Build settings
-markdown: kramdown
+markdown:            kramdown
+highlighter:         rouge
+permalink:           /:title
+plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
+
+# Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
+title:		           "Aashay Zende"
+description:	       "Data Analyst | Business Analyst | Datacamp SQL Associate Certified | PowerBI and Tableau Specialist | Portfolio Management | Strategy Consulting"
+author:              "Aashay"
+# RSS 2.0 can be used instead of Atom by uncommenting following two lines
+#feed:
+#  path: rss-feed.xml
